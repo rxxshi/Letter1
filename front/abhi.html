@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Hey!!Porrukiii.... </strong>
+                        <p>
+                            This is small letter for you🤏...Epo thaiku kaila yezhutha mudiyuma theriyala letter.....🙈Athan computer laa ezhuthuran.....😁I know this is not a big thing in our big occation.....😌But I wanted to create this one for you.....😘🥰Patuu!!😻😽 Love you more and more and more daa......😽😽😽
+                            Nee ennakaga yevalvo thaangiruka.....🥹Yenna thaan misunderstandings vanthalum....🥹You never left me alone.....🥹😘Thankyou for everything you do.......🥹😽😻You have been my biggest support system nowadays.....😻🐒Sorry for making you anger everyday.....🥺And lastaa onnu sollanum.....😘😗"Naa irrukan....😘Irrupan.....🫂Yeppavum!!🤌😘" LOVE YOU MORE THAN MYSELF!!😘😘😘 "My THANGAMEEAA"😘😘😘
+                        </p><br>
+                         <img src=img.jpg class="letter-image">
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
